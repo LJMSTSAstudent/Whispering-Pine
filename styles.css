@@ -3,6 +3,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     -ms-overflow-style: none;
     padding-top: 15px;
@@ -86,8 +90,6 @@ body {
 
 .logo{
     margin-right: 5vw;
-    text-decoration: none;
-    width: 10vw;
 }
 
 .main-header-bar form {
@@ -181,4 +183,12 @@ h1,h2,h3,h4,p{
 
 .big-text{
     max-width: 40vw;
+}
+
+.more-btn{
+    transition: transform 0.3s ease;
+}
+
+.more-btn:hover{
+    transform: translateY(-5px);
 }
