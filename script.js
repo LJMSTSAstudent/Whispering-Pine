@@ -1,5 +1,6 @@
 // Enable hidden nav bar
 {
+  /*
   const header = document.querySelector(".entire-header");
   let lastScrollY = window.scrollY;
 
@@ -12,4 +13,5 @@
 
     lastScrollY = window.scrollY;
   });
+  *\
 }
