@@ -164,6 +164,17 @@ h1,h2,h3,h4,p{
     flex-direction: column;
     align-content: space-evenly;
     color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .page-explore-section{
